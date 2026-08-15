@@ -1,0 +1,9 @@
+transformers
+torch
+accelerate
+pydantic
+pandas
+numpy
+matplotlib
+sentencepiece
+python-dotenv
