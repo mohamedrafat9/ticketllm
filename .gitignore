@@ -1,0 +1,61 @@
+# Byte-compiled / optimized Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+
+# Packaging and build artifacts
+.Python
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+*.egg
+
+# Test, coverage, and type-checker artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.pyright/
+.ruff_cache/
+.tox/
+.nox/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+*.swp
+*.swo
+
+# Local logs and databases
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# Model and experiment artifacts
+checkpoints/
+outputs/
+wandb/
+mlruns/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
