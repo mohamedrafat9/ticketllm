@@ -9,6 +9,7 @@ venv/
 env/
 ENV/
 .conda/
+.env/
 
 # Environment and local configuration
 .env
