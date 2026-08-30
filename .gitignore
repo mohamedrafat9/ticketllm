@@ -60,3 +60,4 @@ mlruns/
 *.pt
 *.pth
 *.safetensors
+*.DS_Store
