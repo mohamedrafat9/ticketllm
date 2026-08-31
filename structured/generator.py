@@ -10,5 +10,5 @@ class StructuredGeneration :
         return self.model(
             prompt,
             schema,
-            max_new_tokens=120
+            max_new_tokens=150
         )

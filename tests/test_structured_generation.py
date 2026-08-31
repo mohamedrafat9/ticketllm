@@ -13,7 +13,7 @@ def main() :
 
     generator = StructuredGeneration(model, tokenizer)
 
-    user_query = """Your support team was very helpful, thank you!"""
+    user_query = """the subscription fee is too high, I want to cancel my subscription and get a refund"""
 
     prompt = build_ticket_classifier(user_query)
     

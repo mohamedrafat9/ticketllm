@@ -1,0 +1,11 @@
+ticket_id,message,expected_category,predicted_category,expected_sentiment,predicted_sentiment,expected_urgency,predicted_urgency,summary,category_correct,sentiment_correct,urgency_correct
+1,My laptop screen is broken and I need urgent help.,technical,delivery,negative,positive,high,high,I need urgent help with my laptop screen.,False,False,True
+2,I forgot my password and need to reset it.,account,delivery,neutral,positive,medium,high,I forgot my password and need to reset it. I need to reset it now.,False,False,False
+3,My package arrived two days late.,delivery,ERROR,negative,ERROR,medium,ERROR,,False,False,False
+4,I was charged twice for the same order.,billing,ERROR,negative,ERROR,high,ERROR,,False,False,False
+5,I want to cancel my subscription.,subscription,account,neutral,positive,medium,medium,I want to cancel my subscription. I am interested in the cancellation of my subscription.,False,False,True
+6,"Your support team was very helpful, thank you!",account,delivery,positive,positive,low,low,low,False,True,True
+7,The payment failed but money was deducted from my account.,billing,ERROR,negative,ERROR,high,ERROR,,False,False,False
+8,I received my order early and everything looks great.,delivery,delivery,positive,positive,low,low,low,True,True,True
+9,The mobile app freezes when I upload a file.,technical,technical,negative,negative,high,medium,mobilizm,True,True,False
+10,How can I upgrade my subscription plan?,subscription,technical,neutral,positive,low,medium,povrudnice,False,False,False
