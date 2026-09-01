@@ -1,6 +1,6 @@
 from .outlines_adapter import create_structured_model
 
-class StructuredGeneration : 
+class StructuredGeneration:
 
     def __init__(self, model, tokenizer):
         self.model = create_structured_model(model, tokenizer)
@@ -10,5 +10,5 @@ class StructuredGeneration :
         return self.model(
             prompt,
             schema,
-            max_new_tokens=150
+            max_new_tokens=150,
         )
